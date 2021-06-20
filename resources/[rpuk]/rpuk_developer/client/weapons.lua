@@ -1,0 +1,8 @@
+RegisterCommand('dev_gun', function(playerId, args, rawCommand)
+	GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_AZTECAM1911"), 300, 0, 1)
+	GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_BALLAM1911"), 300, 0, 1)
+	GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_GROVEM1911"), 300, 0, 1)
+	GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_MARAGRANDEM1911"), 300, 0, 1)
+	GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_TRIADSM1911"), 300, 0, 1)
+	GiveWeaponToPed(PlayerPedId(), GetHashKey("WEAPON_VAGOSM1911"), 300, 0, 1)
+end)

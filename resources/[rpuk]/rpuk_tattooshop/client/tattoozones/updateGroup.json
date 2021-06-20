@@ -1,0 +1,674 @@
+[
+	{
+		"updateGroup": "ARM_LEFT_1",
+		"addedX": 0.2,
+		"addedY": 0.4,
+		"addedZ": 0.1,
+		"rotZ": 112.0,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_2",
+		"addedX": -0.5,
+		"addedY": 0.9,
+		"addedZ": 0.4,
+		"rotZ": 551.7,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_BICEP",
+		"addedX": 0.3,
+		"addedY": 0.3,
+		"addedZ": 0.4,
+		"rotZ": 114.0,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_ELBOW",
+		"addedX": -0.5,
+		"addedY": 0.2,
+		"addedZ": 0.2,
+		"rotZ": -107.1,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_FULL_SLEEVE",
+		"addedX": 0.1,
+		"addedY": 1.2,
+		"addedZ": 0.1,
+		"rotZ": 511.9,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_LOWER_INNER",
+		"addedX": 0.3,
+		"addedY": 0.2,
+		"addedZ": 0.0,
+		"rotZ": 115.5,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_LOWER_OUTER",
+		"addedX": 0.1,
+		"addedY": 1.2,
+		"addedZ": 0.1,
+		"rotZ": 511.9,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_LOWER_SLEEVE",
+		"addedX": 0.5,
+		"addedY": 0.35,
+		"addedZ": 0.0,
+		"rotZ": 87.0,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_SHORT_SLEEVE",
+		"addedX": 0.1,
+		"addedY": 1.2,
+		"addedZ": 0.1,
+		"rotZ": 511.9,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_SHOULDER",
+		"addedX": -0.5,
+		"addedY": 0.9,
+		"addedZ": 0.4,
+		"rotZ": 551.7,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_SLEEVE",
+		"addedX": -0.25,
+		"addedY": 0.7,
+		"addedZ": 0.25,
+		"rotZ": -164.1,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_UPPER_SIDE",
+		"addedX": -0.5,
+		"addedY": 0.9,
+		"addedZ": 0.4,
+		"rotZ": 551.7,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_UPPER_SLEEVE",
+		"addedX": -0.5,
+		"addedY": 0.9,
+		"addedZ": 0.4,
+		"rotZ": 551.7,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_LEFT_WRIST",
+		"addedX": -0.3,
+		"addedY": -0.2,
+		"addedZ": 0.1,
+		"rotZ": -34.8,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT",
+		"addedX": 0.4,
+		"addedY": -0.8,
+		"addedZ": 0.4,
+		"rotZ": 375.2,
+		"bodyzone": "Left Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_ELBOW",
+		"addedX": -0.2,
+		"addedY": -0.5,
+		"addedZ": 0.1,
+		"rotZ": -52.8,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_FULL_SLEEVE",
+		"addedX": 0.5,
+		"addedY": -0.4,
+		"addedZ": 0.1,
+		"rotZ": 74.3,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_LOWER",
+		"addedX": 0.4,
+		"addedY": 0.1,
+		"addedZ": 0.1,
+		"rotZ": 123.9,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_LOWER_INNER",
+		"addedX": 0.3,
+		"addedY": 0.3,
+		"addedZ": 0.0,
+		"rotZ": 145.4,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_LOWER_OUTER",
+		"addedX": -0.4,
+		"addedY": -0.4,
+		"addedZ": 0.1,
+		"rotZ": 296.0,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_LOWER_SLEEVE",
+		"addedX": 0.5,
+		"addedY": -0.4,
+		"addedZ": 0.1,
+		"rotZ": 42.8,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_SHOULDER",
+		"addedX": 0.4,
+		"addedY": -0.8,
+		"addedZ": 0.4,
+		"rotZ": 375.2,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_SLEEVE",
+		"addedX": -0.4,
+		"addedY": -0.4,
+		"addedZ": 0.1,
+		"rotZ": 296.0,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_TRICEP",
+		"addedX": -0.4,
+		"addedY": -0.7,
+		"addedZ": 0.2,
+		"rotZ": -49.7,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_UPPER_SIDE",
+		"addedX": 0.4,
+		"addedY": -0.8,
+		"addedZ": 0.4,
+		"rotZ": 375.2,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_UPPER_SLEEVE",
+		"addedX": 0.1,
+		"addedY": -0.8,
+		"addedZ": 0.4,
+		"rotZ": -9.8,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "ARM_RIGHT_WRIST",
+		"addedX": -0.4,
+		"addedY": -0.2,
+		"addedZ": 0.1,
+		"rotZ": 247.6,
+		"bodyzone": "Right Arm"
+	},
+	{
+		"updateGroup": "BACK_1",
+		"addedX": -0.6,
+		"addedY": -0.3,
+		"addedZ": 0.45,
+		"rotZ": -67.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_2",
+		"addedX": -0.45,
+		"addedY": -0.35,
+		"addedZ": 0.3,
+		"rotZ": -60.6,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_3",
+		"addedX": -0.5,
+		"addedY": -0.4,
+		"addedZ": 0.5,
+		"rotZ": -53.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_4",
+		"addedX": -0.7,
+		"addedY": -0.5,
+		"addedZ": 0.3,
+		"rotZ": -63.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_FULL",
+		"addedX": -0.7,
+		"addedY": -0.5,
+		"addedZ": 0.3,
+		"rotZ": -63.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_FULL_ARMS_FULL_BACK",
+		"addedX": -0.7,
+		"addedY": -0.5,
+		"addedZ": 0.3,
+		"rotZ": -63.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_FULL_SHORT",
+		"addedX": -0.7,
+		"addedY": -0.5,
+		"addedZ": 0.3,
+		"rotZ": -63.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_LEFT",
+		"addedX": -0.5,
+		"addedY": 0.1,
+		"addedZ": 0.2,
+		"rotZ": 258.8,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_LOWER",
+		"addedX": -0.7,
+		"addedY": -0.5,
+		"addedZ": 0.3,
+		"rotZ": -63.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_UPPER",
+		"addedX": -0.7,
+		"addedY": -0.5,
+		"addedZ": 0.3,
+		"rotZ": -63.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_UPPER_LEFT",
+		"addedX": -0.65,
+		"addedY": -0.05,
+		"addedZ": 0.55,
+		"rotZ": -101.1,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "BACK_UPPER_RIGHT",
+		"addedX": -0.7,
+		"addedY": -0.5,
+		"addedZ": 0.3,
+		"rotZ": -63.5,
+		"bodyzone": "Back"
+	},
+	{
+		"updateGroup": "CHEST_FULL",
+		"addedX": 0.6,
+		"addedY": 0.3,
+		"addedZ": 0.4,
+		"rotZ": 116.6,
+		"bodyzone": "Chest"
+	},
+	{
+		"updateGroup": "CHEST_LEFT",
+		"addedX": 0.3,
+		"addedY": 0.4,
+		"addedZ": 0.45,
+		"rotZ": 116.6,
+		"bodyzone": "Chest"
+	},
+	{
+		"updateGroup": "CHEST_LEFT_UPPER",
+		"addedX": 0.35,
+		"addedY": 0.35,
+		"addedZ": 0.55,
+		"rotZ": 117.3,
+		"bodyzone": "Chest"
+	},
+	{
+		"updateGroup": "CHEST_MID",
+		"addedX": 0.6,
+		"addedY": 0.3,
+		"addedZ": 0.5,
+		"rotZ": 121.7,
+		"bodyzone": "Chest"
+	},
+	{
+		"updateGroup": "CHEST_RIGHT",
+		"addedX": 0.5,
+		"addedY": 0.05,
+		"addedZ": 0.55,
+		"rotZ": 91.8,
+		"bodyzone": "Chest"
+	},
+	{
+		"updateGroup": "CHEST_STOM",
+		"addedX": 0.6,
+		"addedY": 0.3,
+		"addedZ": 0.4,
+		"rotZ": 116.6,
+		"bodyzone": "Abdomen"
+	},
+	{
+		"updateGroup": "CHEST_STOM_FULL",
+		"addedX": 0.6,
+		"addedY": 0.3,
+		"addedZ": 0.4,
+		"rotZ": 116.6,
+		"bodyzone": "Abdomen"
+	},
+	{
+		"updateGroup": "FACE",
+		"addedX": 0.35,
+		"addedY": 0.2,
+		"addedZ": 0.75,
+		"rotZ": 108.3,
+		"bodyzone": "Face"
+	},
+	{
+		"updateGroup": "HAND_LEFT",
+		"addedX": -0.1,
+		"addedY": 0.8,
+		"addedZ": -0.2,
+		"rotZ": 156.7,
+		"bodyzone": "Left Hand"
+	},
+	{
+		"updateGroup": "HAND_RIGHT",
+		"addedX": 0.5,
+		"addedY": -0.4,
+		"addedZ": -0.1,
+		"rotZ": 37.8,
+		"bodyzone": "Right Hand"
+	},
+	{
+		"updateGroup": "HEAD_LEFT",
+		"addedX": 0.6,
+		"addedY": 0.3,
+		"addedZ": 0.4,
+		"rotZ": 116.6,
+		"bodyzone": "Head"
+	},
+	{
+		"updateGroup": "HEAD_RIGHT",
+		"addedX": 0.6,
+		"addedY": 0.3,
+		"addedZ": 0.4,
+		"rotZ": 116.6,
+		"bodyzone": "Head"
+	},
+	{
+		"updateGroup": "LEG_LEFT",
+		"addedX": -0.7,
+		"addedY": -0.5,
+		"addedZ": -0.7,
+		"rotZ": 296.0,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEFT_CALF",
+		"addedX": -0.6,
+		"addedY": -0.1,
+		"addedZ": -0.7,
+		"rotZ": 307.0,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEFT_FULL_SLEEVE",
+		"addedX": -0.4,
+		"addedY": 0.75,
+		"addedZ": -0.45,
+		"rotZ": -159.5,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEFT_LOWER_BACK",
+		"addedX": -0.6,
+		"addedY": -0.1,
+		"addedZ": -0.7,
+		"rotZ": 307.0,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEFT_LOWER_FRONT",
+		"addedX": 0.4,
+		"addedY": 0.2,
+		"addedZ": -0.7,
+		"rotZ": 79.0,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEFT_LOWER_SLEEVE",
+		"addedX": 0.25,
+		"addedY": 0.75,
+		"addedZ": -0.7,
+		"rotZ": 135.0,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEFT_UPPER_FRONT",
+		"addedX": 0.55,
+		"addedY": 0.5,
+		"addedZ": -0.3,
+		"rotZ": 111.1,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEFT_UPPER_OUTER",
+		"addedX": -0.05,
+		"addedY": 0.65,
+		"addedZ": -0.3,
+		"rotZ": 170.6,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEFT_UPPER_SLEEVE",
+		"addedX": -0.1,
+		"addedY": 0.8,
+		"addedZ": -0.2,
+		"rotZ": 156.7,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_LEG",
+		"addedX": -0.6,
+		"addedY": -0.1,
+		"addedZ": -0.7,
+		"rotZ": 307.0,
+		"bodyzone": "Left Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT",
+		"addedX": -0.6,
+		"addedY": -0.4,
+		"addedZ": -0.7,
+		"rotZ": -65.5,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT_CALF",
+		"addedX": -0.5,
+		"addedY": -0.5,
+		"addedZ": -0.7,
+		"rotZ": -66.5,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT_FULL_SLEEVE",
+		"addedX": 0.7,
+		"addedY": -0.5,
+		"addedZ": -0.4,
+		"rotZ": 39.3,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT_LOWER_BACK",
+		"addedX": -0.6,
+		"addedY": -0.35,
+		"addedZ": -0.6,
+		"rotZ": -81.4,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT_LOWER_OUTER",
+		"addedX": 0.5,
+		"addedY": -0.4,
+		"addedZ": -0.6,
+		"rotZ": 74.3,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT_LOWER_SLEEVE",
+		"addedX": -0.5,
+		"addedY": -0.5,
+		"addedZ": -0.7,
+		"rotZ": -64.5,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT_UPPER_FRONT",
+		"addedX": 0.4,
+		"addedY": 0.05,
+		"addedZ": -0.3,
+		"rotZ": 97.8,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT_UPPER_OUTER",
+		"addedX": 0.5,
+		"addedY": -0.4,
+		"addedZ": -0.5,
+		"rotZ": 37.8,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "LEG_RIGHT_UPPER_SLEEVE",
+		"addedX": 0.5,
+		"addedY": -0.4,
+		"addedZ": -0.35,
+		"rotZ": 37.8,
+		"bodyzone": "Right Leg"
+	},
+	{
+		"updateGroup": "NECK_BACK",
+		"addedX": -0.3,
+		"addedY": -0.2,
+		"addedZ": 0.6,
+		"rotZ": -54.1,
+		"bodyzone": "Neck"
+	},
+	{
+		"updateGroup": "NECK_FRONT",
+		"addedX": 0.3,
+		"addedY": 0.2,
+		"addedZ": 0.5,
+		"rotZ": 119.4,
+		"bodyzone": "Neck"
+	},
+	{
+		"updateGroup": "NECK_LEFT",
+		"addedX": -0.25,
+		"addedY": 0.35,
+		"addedZ": 0.65,
+		"rotZ": -148.7,
+		"bodyzone": "Neck"
+	},
+	{
+		"updateGroup": "NECK_LEFT_BACK",
+		"addedX": 0.0,
+		"addedY": 0.3,
+		"addedZ": 0.6,
+		"rotZ": 164.8,
+		"bodyzone": "Neck"
+	},
+	{
+		"updateGroup": "NECK_LEFT_FULL",
+		"addedX": -0.2,
+		"addedY": 0.35,
+		"addedZ": 0.7,
+		"rotZ": -163.2,
+		"bodyzone": "Neck"
+	},
+	{
+		"updateGroup": "NECK_RIGHT",
+		"addedX": 0.252,
+		"addedY": -0.35,
+		"addedZ": 0.65,
+		"rotZ": 36.3,
+		"bodyzone": "Neck"
+	},
+	{
+		"updateGroup": "NECK_RIGHT_2",
+		"addedX": 0.3,
+		"addedY": -0.2,
+		"addedZ": 0.7,
+		"rotZ": 56.9,
+		"bodyzone": "Neck"
+	},
+	{
+		"updateGroup": "NECK_RIGHT_FULL",
+		"addedX": 0.3,
+		"addedY": -0.2,
+		"addedZ": 0.7,
+		"rotZ": 56.9,
+		"bodyzone": "Neck"
+	},
+	{
+		"updateGroup": "SIDE_RIGHT",
+		"addedX": 0.5,
+		"addedY": -0.3,
+		"addedZ": 0.2,
+		"rotZ": 38.9,
+		"bodyzone": "Abdomen"
+	},
+	{
+		"updateGroup": "STOMACH_FULL",
+		"addedX": 0.6,
+		"addedY": 0.3,
+		"addedZ": 0.3,
+		"rotZ": 116.6,
+		"bodyzone": "Abdomen"
+	},
+	{
+		"updateGroup": "STOMACH_LEFT",
+		"addedX": 0.25,
+		"addedY": 0.3,
+		"addedZ": 0.1,
+		"rotZ": 117.3,
+		"bodyzone": "Abdomen"
+	},
+	{
+		"updateGroup": "STOMACH_MID",
+		"addedX": 0.35,
+		"addedY": 0.2,
+		"addedZ": 0.3,
+		"rotZ": 116.6,
+		"bodyzone": "Abdomen"
+	},
+	{
+		"updateGroup": "STOMACH_RIGHT",
+		"addedX": 0.5,
+		"addedY": -0.01,
+		"addedZ": 0.15,
+		"rotZ": 76.4,
+		"bodyzone": "Abdomen"
+	},
+	{
+		"updateGroup": "TORSO_SIDE_RIGHT",
+		"addedX": 0.5,
+		"addedY": -0.3,
+		"addedZ": 0.2,
+		"rotZ": 38.9,
+		"bodyzone": "Abdomen"
+	}
+]

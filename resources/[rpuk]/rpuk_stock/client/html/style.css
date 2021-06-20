@@ -1,0 +1,181 @@
+* {
+	font-family: Arial;
+}
+
+body {
+	overflow: hidden;
+	display: none;
+	-webkit-user-select: none;
+}
+
+.content_back {
+	position: absolute;
+	left: 50%;
+	background: yellow;
+	top: 9%;
+	width: 80%;
+	height: 80%;
+	transform: translateX(-50%);
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.top_content {
+	overflow-y: scroll;
+	position: absolute;
+	left: 50%;
+	top: 9%;
+	width: 100%;
+	height: 80%;
+	transform: translateX(-50%);
+	padding: 0.5%;
+	display: inline;
+	float: left;
+}
+
+#bot_content {
+	/*Orders - New*/
+	position: absolute;
+	left: 50%;
+	z-index: 3;
+	bottom: 4%;
+	width: 100%;
+	text-align: center;
+	transform: translateX(-50%);
+}
+
+#bot_content2 {
+	/*Orders - Current*/
+	position: absolute;
+	left: 50%;
+	z-index: 4;
+	bottom: 1%;
+	width: 100%;
+	text-align: center;
+	transform: translateX(-50%);
+}
+
+#bot_content3 {
+	/*Delivery - Pending*/
+	position: absolute;
+	left: 50%;
+	z-index: 4;
+	bottom: 1%;
+	width: 100%;
+	text-align: center;
+	transform: translateX(-50%);
+}
+
+#bot_content4 {
+	/*Delivery - Jobs*/
+	position: absolute;
+	left: 50%;
+	z-index: 4;
+	bottom: 2%;
+	width: 100%;
+	text-align: center;
+	transform: translateX(-50%);
+}
+
+form {
+	margin: 0;
+}
+
+.label_opt {
+	padding: 0.2%;
+}
+
+[type=radio] {
+	position: absolute;
+	opacity: 0;
+	width: 0;
+	height: 0;
+}
+
+.highlight {
+	background-color: #2e2eaf !important;
+}
+
+[type=radio]+img {
+	cursor: pointer;
+}
+
+[type=radio]:checked+img {
+	outline: 2px solid #747bf0;
+}
+
+input[type=text] {
+	background-color: rgba(0, 0, 0, 0);
+	border: solid;
+	border-width: thin;
+	border-color: grey;
+	color: white;
+	width: 5%;
+	text-align: center;
+	padding-top: 0.5%;
+	padding-bottom: 0.5%;
+}
+
+.tab button {
+	background-color: rgba(0, 0, 0, 0);
+	border: none;
+	color: grey;
+	padding-top: 4.3%;
+	padding-bottom: 4.3%;
+}
+
+::-webkit-input-placeholder {
+	/* Edge */
+	color: white;
+}
+
+:-ms-input-placeholder {
+	/* Internet Explorer 10-11 */
+	color: white;
+}
+
+::placeholder {
+	color: white;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+	background: #747bf0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #747bf0;
+}
+
+.tabcontent {
+	display: none;
+	padding: 6px 12px;
+	border: none;
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%;
+}
+
+td, th {
+	border: 1px solid #dddddd;
+	text-align: center;
+	padding: 8px;
+}
+
+tr:nth-child(odd) {
+	background-color: rgba(200, 200, 200, 0.6);
+	color: white;
+}
+
+tr:nth-child(even) {
+	background-color: rgba(200, 200, 200, 0.3);
+	color: white;
+}

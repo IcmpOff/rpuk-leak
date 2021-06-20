@@ -1,0 +1,286 @@
+* {
+	font-family: Arial;
+}
+
+html, body, p, button {
+	padding: 0;
+	margin: 0;
+}
+
+*, *::after, *::before {
+	-webkit-user-select: none;
+	-webkit-user-drag: none;
+	-webkit-app-region: no-drag;
+	cursor: default;
+}
+
+#depositUI, #general, #topbar, #withdrawUI {
+	display: none;
+}
+
+body.active {
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+textarea:focus, input:focus {
+	outline: none;
+}
+
+*:focus {
+	outline: none;
+}
+
+.container {
+	margin: 25%;
+	margin-top: 5%;
+	margin-bottom: 5%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.box-shadow {
+	-webkit-box-shadow: 0px 0px 40px 0px rgba(224, 224, 224, 0.5);
+	box-shadow: 0px 0px 40px 0px rgba(224, 224, 224, 0.5);
+}
+
+.cont-content {
+	background: #f9f9f9;
+	height: 25vw;
+}
+
+.flex {
+	display: flex;
+}
+
+button {
+	cursor: pointer;
+	border: 0;
+}
+
+.btn {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color: white;
+	position: relative;
+	overflow: hidden;
+	text-align: left;
+	display: flex;
+}
+
+.btn .icon {
+	line-height: 38px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+
+.btn span:last-child {
+	font-size: 0.5em;
+	color: red;
+	text-transform: none;
+}
+
+.btn i {
+	position: absolute;
+	transform: rotate(10deg);
+	font-size: 130px;
+	left: -19%;
+	top: -34%;
+	opacity: 0.1;
+	transition-duration: 0.3s;
+}
+
+.btn-red span:last-child, .btn-violet span:last-child, .btn-orange span:last-child, .btn-green span:last-child, .btn-blue span:last-child, .btn-grey span:last-child {
+	color: black;
+}
+
+.btn-blue {
+	background: #3a93e5;
+}
+
+.btn-red {
+	background: #ff392e;
+}
+
+.btn-violet {
+	background: #a555e9;
+}
+
+.btn-orange {
+	background: #e5873b;
+}
+
+.btn-green {
+	background: #7cb732;
+}
+
+.btn-grey {
+	background: #a0a0a0;
+}
+
+.btn:hover i {
+	transform: rotate(0deg);
+	font-size: 150px;
+}
+
+button {
+	width: 15vw;
+	margin: 5%;
+}
+
+/*######################################################*/
+
+/* ###############        TOP BAR        ###############*/
+
+/*######################################################*/
+
+.topbar {
+	background: linear-gradient(to right, #c8db2b, #268f3a);
+	width: 100%;
+	height: 7vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	position: relative;
+	overflow: hidden;
+}
+
+nav {
+	width: calc(100% - 40px);
+	display: flex;
+	justify-content: space-between;
+	z-index: 1;
+}
+
+.btn-sign-out i {
+	transition-duration: 0.3s;
+}
+
+#logo {
+	height: 60%;
+	margin: 1%;
+}
+
+/*######################################################*/
+
+/* ###############       MAIN MENU       ###############*/
+
+/*######################################################*/
+
+.balance {
+	width: 30vw;
+	height: 40vh;
+	margin-top: 2%;
+	margin-left: 2%;
+	color: #414141;
+	font-size: 1.9em;
+	background-image: url(assets/img/curve.png);
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
+
+.balance .name {
+	font-size: 25px;
+	color: #a9cc2e;
+}
+
+.balance .money {
+	color: #28903a;
+}
+
+.balance .money .dollars {
+	color: #e1e0e0;
+}
+
+.list-btn {
+	display: flex;
+	flex-direction: column;
+}
+
+.pub {
+	background: white;
+	position: relative;
+}
+
+.graph {
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+}
+
+/*######################################################*/
+
+/* ###############     WITHDRAW MENU      ###############*/
+
+/*######################################################*/
+
+.banniere {
+	width: 25vw;
+	height: 7vh;
+	margin-top: 2%;
+	margin-left: 1%;
+	padding-left: 1%;
+}
+
+.banniere p {
+	font-size: 1.1em;
+	margin-bottom: 0%;
+}
+
+.banniere span {
+	margin-top: 0%;
+	position: relative;
+	top: 0%;
+	font-size: 1em;
+}
+
+.return {
+	margin: 0vw;
+	height: 7vh;
+	margin-top: 2%;
+}
+
+form {
+	margin-top: 60px;
+}
+
+label {
+	font-size: 17px;
+	color: #414141;
+}
+
+.input-cont {
+	background: white;
+	display: flex;
+	flex-direction: column;
+}
+
+.input-cont input {
+	width: 95%;
+	text-align: center;
+	border: 0;
+	font-size: 60px;
+	color: #28903a;
+}
+
+.input-cont input::-webkit-input-placeholder {
+	color: #7cb732;
+}
+
+.double-input {
+	display: flex;
+	justify-content: space-between;
+}
+
+.double-input input {
+	font-size: 35px;
+	color: red;
+}

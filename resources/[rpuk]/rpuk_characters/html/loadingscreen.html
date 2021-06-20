@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>rpuk_characters</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="nui://rpuk_characters/html/css/loadingscreen.css">
+</head>
+
+<body>
+	<h1 class="enable_music"><strong>Spacebar</strong> To Pause Music<br><strong>Enter</strong> To Pause Video</h1>
+	<h1 class="servername" style="color:rgba(0,0,0,0.0);"><strong>Roleplay</strong>.co.uk</h1>
+	<h1 class="undertext" style="color:rgba(0,0,0,0.0);">Connecting to the server</h1>
+	<!--<img style="z-index:2;position:absolute;top:4.5%;left:43.0%;height:21.5%;" src="nui://rpuk_characters/html/image/rplogo.png">-->
+
+	<div class="slideshow-container">
+		<video id="LoyaltyVideo" playsinline autoplay muted loop style="width:100%">
+			<source style="z-index:3;" src="nui://rpuk_characters/html/image/gangloadfinal.webm" type="video/webm" />
+		</video>
+
+		<!--<div class="LoyaltyBackground fade"><img src="image/h1.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h2.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h3.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h4.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h5.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h6.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h7.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h8.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h9.png" style="width:100%"></div>
+		<div class="LoyaltyBackground fade"><img src="nui://rpuk_characters/html/image/h10.png" style="width:100%"></div>-->
+	</div>
+
+	<div class="alert_right">
+		<strong>Warning!</strong><br>This server uses a custom EUP/clothing stream! Please restart your FiveM client
+		<strong>BEFORE</strong> joining the server.<br> Rules broken as a result of non compliance (e.g. not being able
+		to see police clothing) will not be tolerated.
+	</div>
+
+	<!-- <div class="alert_left">
+		<strong>Announcement</strong><br>This server is running the new GTA 5 Island DLC content. Loading times may be an extra minute as a result.
+	</div> -->
+
+	<!-- <div class="overcast"></div> -->
+	<div class="progress"></div>
+	<audio id="musicPlayer" src="music/drdre.mp3" autoplay hidden loop></audio>
+
+	<script src="nui://game/ui/jquery.js"></script>
+
+	<script>	
+		var video = true
+		var vid = document.getElementById("LoyaltyVideo");
+		vid.playbackRate = 0.8;
+		
+		var play = true;
+		var myAudio = document.getElementById("musicPlayer");
+		myAudio.volume = 0.1;
+
+		window.addEventListener('keydown', function (event) {
+			switch (event.keyCode) {
+				case 32: //SpaceBar
+					if (play) {
+						myAudio.pause();
+						play = false;
+					} else {
+						myAudio.play();
+						play = true;
+					}
+					break;
+				case 13:
+					if (video) {
+						vid.pause();
+						video = false;
+					} else {
+						vid.play();
+						video = true;
+					}
+					break;
+			}
+			return false;
+		}, false);
+
+		window.addEventListener('message', function (event) {
+			if (event.data.eventName == "loadProgress") {
+				$('.progress').css({ "width": event.data.loadFraction * 100 + '%' });
+			}
+		});
+
+		var slideIndex = 0;
+		showSlides();
+
+		function showSlides() {
+			var i;
+			var slides = document.getElementsByClassName("LoyaltyBackground");
+
+			for (i = 0; i < slides.length; i++) {
+				slides[i].style.display = "none";
+			}
+
+			slideIndex++;
+
+			if (slideIndex > slides.length) { slideIndex = 1 }
+
+			slides[slideIndex - 1].style.display = "block";
+			setTimeout(showSlides, 7000);
+		}
+	</script>
+</body>
+
+</html>

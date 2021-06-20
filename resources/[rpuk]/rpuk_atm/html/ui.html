@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>rpuk_atm</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css"
+		integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous">
+</head>
+
+<body>
+	<div class="container">
+		<div class="topbar" id="topbar">
+			<img id="logo" src="assets/img/logo.png" alt="">
+		</div>
+
+		<div class="cont-content" id="general">
+			<div class="flex">
+				<div class="balance box-shadow">
+					<p>Welcome Back <span class="name"><span class="username1"></span></span>
+						<br>
+						Balance: <span class="money"><span class="euro">£</span><span class="curbalance"></span></span>
+					</p>
+				</div>
+				<div class="list-btn">
+					<button class="btn btn-blue" id="deposit">
+						<i class="far fa-money-bill-alt"></i>
+						<span class="far fa-money-bill-alt icon"></span>
+						<p>Deposit<br>
+							<span>The Right option!</span>
+						</p>
+					</button>
+					<button class="btn btn-violet" id="withdraw">
+						<i class="far fa-credit-card"></i>
+						<span class="far fa-credit-card icon"></span>
+						<p>Withdraw<br>
+							<span>Why withdraw?</span>
+						</p>
+					</button>
+					<button class="btn btn-red btn-sign-out" id="exit">
+						<i class="fas fa-sign-out-alt"></i>
+						<span class="fas fa-sign-out-alt icon"></span>
+						<p>Exit<br>
+							<span class="black">Be Back soon!</span>
+						</p>
+					</button>
+				</div>
+			</div>
+		</div>
+
+		<div class="cont-content" id="depositUI">
+			<div class="flex">
+				<div class="btn btn-blue banniere">
+					<p>Deposit your money<br>
+						<span>We are the most secure bank of the city</span>
+					</p>
+				</div>
+				<button class="btn btn-grey return back">
+					<i class="fas fa-bars"></i>
+					<span class="fas fa-arrow-left icon"></span>
+					<p>Return<br>
+						<span>To the main menu</span>
+					</p>
+				</button>
+			</div>
+			<form id="deposit1">
+				<div class="input-cont box-shadow">
+					<label>How much would you like to deposit into your bank account?</label>
+					<input id="amount" type="number" placeholder="£0">
+				</div>
+				<button class="btn btn-green" type="submit">
+					<i class="fas fa-check"></i>
+					<span class="fas fa-check icon"></span>
+					<p>Validate<br>
+						<span>Your Deposit</span>
+					</p>
+				</button>
+			</form>
+		</div>
+
+		<div class="cont-content" id="withdrawUI">
+			<div class="flex">
+				<div class="btn btn-violet banniere">
+					<p>Withdraw money<br>
+						<span>Fine, you can have your money back.</span>
+					</p>
+				</div>
+				<button class="btn btn-grey return back">
+					<i class="fas fa-bars"></i>
+					<span class="fas fa-arrow-left icon"></span>
+					<p>Return<br>
+						<span>To the main menu</span>
+					</p>
+				</button>
+			</div>
+			<form id="withdraw1">
+				<div class="input-cont box-shadow">
+					<label>How much do you want to withdraw</label>
+					<input id="amountw" type="number" placeholder="£0">
+				</div>
+				<button class="btn btn-green" type="submit">
+					<i class="fas fa-check"></i>
+					<span class="fas fa-check icon"></span>
+					<p>Validate<br>
+						<span>Your withdrawal</span>
+					</p>
+				</button>
+			</form>
+		</div>
+	</div>
+	<script src="nui://game/ui/jquery.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>

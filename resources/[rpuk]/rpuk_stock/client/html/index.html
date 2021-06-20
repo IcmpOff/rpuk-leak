@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>rpuk_stock</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+</head>
+
+<body style="background:rgba(0,0,0,0);">
+	<div class="content_back">
+		<div id="keeper_content" style="display:none;">
+			<!-- Navigation menu / bar -->
+			<nav class="navbar navbar-inverse"
+				style="height:9%;border-bottom: 1px #747bf0 solid;background:url(https://i.imgur.com/S7kqqGh.png);background-position:center;">
+				<div class="container-fluid">
+					<div class="navbar-header" style="padding-top:0.6%;">
+						<img style="top:-100%;z-index:1;width:10%;filter:invert(50%);position:absolute;"
+							src="https://i.imgur.com/npcWneX.png" alt="">
+						<a style="z-index:2;padding-top:5%;top:-4%;color:white;font-size:160%;position:relative;"
+							class="navbar-brand" href="#GOHOME">Pegasus Delivery & Retail</a>
+					</div>
+					<div class="tab nav navbar-nav">
+						<button class="tablinks" id="vehTab" onclick="openTab(event, 'Vehicles')">Vehicles</button>
+						<button class="tablinks" id="rawTab" onclick="openTab(event, 'RawMats')">Raw
+							Materials</button>
+						<button class="tablinks" id="manTab" onclick="openTab(event, 'Manufactured')">Manufactured
+							Goods</button>
+						<button class="tablinks" id="curTab" onclick="openTab(event, 'currOrders')">Current
+							Orders</button>
+						<button class="tablinks" id="curdTab" onclick="openTab(event, 'currDelivs')">Deliveries</button>
+						<button class="tablinks" id="accTab" onclick="openTab(event, 'bAccounts')">Business
+							Account</button>
+					</div>
+				</div>
+			</nav>
+
+			<div class="top_content">
+				<div id="bAccounts" class="tabcontent">
+					<h3 style="color:white;">Business Accounts</h3>
+					<div>
+						<p style="color:grey;">Here you can access your business bank account and transfer between
+							business and personal bank accounts.</p><br>
+						<h4 style="color:white;">Business Bank Account Balance</h4>
+						<h4 style="color:green;">£<span id="bank_balance"></span></h4>
+					</div>
+					<div id="shop_type"></div>
+					<form id="bank-form-withdraw">
+						<input type="text" id="bankWithdrawAmou"
+							style="color:white;border:none;box-shadow: 0px 0px 5px lightblue;background:rgba(0,10,10,0.5);"
+							placeholder="0" name="bankWith">
+						<button type="submit"
+							style="width:7%;color:white;padding:10px;border:none;box-shadow: 0px 0px 5px lightblue;background:rgba(0,40,0,0.5);"><b>Withdraw</b></button>
+					</form>
+					<br>
+					<form id="bank-form-deposit">
+						<input type="text" id="bankDepositAmou"
+							style="color:white;border:none;box-shadow: 0px 0px 5px lightblue;background:rgba(0,10,10,0.5);"
+							placeholder="0" name="bankDepos">
+						<button type="submit"
+							style="width:7%;color:white;padding:10px;border:none;box-shadow: 0px 0px 5px lightblue;background:rgba(0,40,0,0.5);"><b>Deposit</b></button>
+					</form>
+				</div>
+
+				<form id="order-form">
+					<div id="Vehicles" class="tabcontent">
+						<h3 style="color:white;">Vehicles</h3>
+						<div id="vehicle_input"></div>
+					</div>
+
+					<div id="RawMats" class="tabcontent">
+						<h3 style="color:white;">Raw Materials</h3>
+						<div id="raw_input"></div>
+					</div>
+
+					<div id="Manufactured" class="tabcontent">
+						<h3 style="color:white;">Manufactured Goods</h3>
+						<div id="man_input"></div>
+					</div>
+				</form>
+			</div>
+
+			<div id="bot_content">
+				<input type="text" id="orderQuant"
+					style="color:white;border:none;box-shadow: 0px 0px 5px green;background:rgba(0,10,10,0.5);"
+					placeholder="Quantity" name="orderQuant">
+				<button form="order-form" type="submit"
+					style="color:white;padding:10px;border:none;box-shadow: 0px 0px 5px green;background:rgba(0,40,0,0.5);"><b>Order
+						Now</b></button>
+				<input type="text" id="orderPrice"
+					style="color:white;border:none;box-shadow: 0px 0px 5px green;background:rgba(0,10,10,0.5);"
+					placeholder="Price" name="orderPrice">
+				<br>
+				<p style="margin:-1%;padding-top:1.3%;color:white;"><strong>Quantity</strong> <i>(How many to
+						purchase)</i> | <strong>Price</strong> <i>(How much to offer per unit/item)</i> |
+					<strong>Total Order Cost</strong> <i>Quantity * Price</i></p>
+			</div>
+
+			<div id="currOrders" class="tabcontent">
+				<div class="top_content">
+					<h3 style="color:white;">Current Stock Orders</h3>
+					<form id="cancel-order">
+						<table id="order_input">
+							<tr>
+								<th style="text-align:center;">Order ID</th>
+								<th style="text-align:center;">Product</th>
+								<th style="text-align:center;">Order Quantity</th>
+								<th style="text-align:center;">Order Payment (Per Unit)</th>
+								<th style="text-align:center;">Order Payment (All)</th>
+								<th style="text-align:center;">Creation Date/Time</th>
+								<th style="text-align:center;">Order Status</th>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<div id="bot_content2">
+					<button form="cancel-order" type="submit"
+						style="color:white;padding:10px;border:none;box-shadow: 0px 0px 5px red;background:rgba(40,0,0,0.5);"><b>Cancel
+							Order</b></button>
+				</div>
+			</div>
+
+			<div id="currDelivs" class="tabcontent">
+				<div class="top_content">
+					<h3 style="color:white;">Deliveries Waiting</h3>
+					<form id="keeper-accept">
+						<table id="deliv_input">
+							<tr>
+								<th style="text-align:center;">Delivery ID</th>
+								<th style="text-align:center;">Product</th>
+								<th style="text-align:center;">Order Quantity</th>
+								<th style="text-align:center;">Order Payment (Per Unit)</th>
+								<th style="text-align:center;">Order Payment (All)</th>
+								<th style="text-align:center;">Creation Date/Time</th>
+								<th style="text-align:center;">Order Status</th>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<div id="bot_content3">
+					<button form="keeper-accept" type="submit"
+						style="color:white;padding:10px;border:none;box-shadow: 0px 0px 5px lightblue;background:rgba(0,0,40,0.5);"><b>Accept
+							Delivery</b></button>
+				</div>
+			</div>
+		</div>
+
+		<div id="driver_content" style="display:block;">
+			<!-- Navigation menu / bar -->
+			<nav class="navbar navbar-inverse"
+				style="height:9%;border-bottom: 1px #747bf0 solid;background:url(https://i.imgur.com/S7kqqGh.png);background-position:center;">
+				<div class="container-fluid">
+					<div class="navbar-header" style="padding-top:0.6%;">
+						<img style="top:-100%;z-index:1;width:10%;filter:invert(50%);position:absolute;"
+							src="https://i.imgur.com/npcWneX.png" alt="">
+						<a style="z-index:2;padding-top:5%;top:-4%;color:white;font-size:160%;position:relative;"
+							class="navbar-brand" href="#GOHOME">Pegasus Delivery & Retail</a>
+					</div>
+					<div class="tab nav navbar-nav" style="padding-top:1.5%;">
+						<button class="tablinks active" onclick="openTab(event, 'driver_deliv')">Pending
+							Jobs/Deliveries</button>
+					</div>
+				</div>
+			</nav>
+
+			<!-- pending deliveries -->
+			<div id="driver_deliv" class="tabcontent" style="display:block">
+				<div class="top_content">
+					<h3 style="color:white;">Pending Delivery Jobs</h3>
+					<form id="driver-accept">
+						<table id="driver_input">
+							<tr>
+								<th style="text-align:center;">Job ID</th>
+								<th style="text-align:center;">Product</th>
+								<th style="text-align:center;width:10%;">Order Quantity</th>
+								<th style="text-align:center;width:10%;">Order Payment (Per Unit)</th>
+								<th style="text-align:center;width:10%;">Order Payment (All)</th>
+								<th style="text-align:center;max-width:30%;">End Location</th>
+								<th style="text-align:center;width:15%;">Order Status</th>
+							</tr>
+						</table>
+					</form>
+				</div>
+				<div id="bot_content4">
+					<button form="driver-accept" type="submit"
+						style="color:white;padding:10px;border:none;box-shadow: 0px 0px 5px pink;background:rgba(40,0,20,0.5);"><b>Accept
+							Job</b></button>
+				</div>
+			</div>
+		</div>
+
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+	<script src="nui://game/ui/jquery.js"></script>
+	<script src="script.js"></script>
+</body>
+
+</html>

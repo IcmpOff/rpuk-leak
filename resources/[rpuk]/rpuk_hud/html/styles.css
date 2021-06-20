@@ -1,0 +1,243 @@
+body {
+	font-family: Arial;
+}
+
+#statusHud {
+	display: flex;
+	position: absolute;
+	bottom: 1.5%;
+}
+
+#varHealth, #varArmor, #varHunger, #varThirst, #varO2 {
+	flex-grow: 1;
+}
+
+#varHealth>#boxSetHealth {
+	background: rgb(28, 161, 92);
+}
+
+#varArmor>#boxSetArmour {
+	background: rgb(31, 75, 146);
+}
+
+#varHunger>#boxSetHunger {
+	background: rgb(210, 155, 67);
+}
+
+#varThirst>#boxSetThirst {
+	background: rgb(80, 125, 181);
+}
+
+#varO2>#boxSetOxygen {
+	background: rgb(126, 178, 241);
+}
+
+/*Background of Bar */
+
+.bar {
+	background-color: rgba(56, 56, 56, 0.4);
+	border: 1px solid rgb(32, 32, 32);
+	z-index: 98;
+}
+
+#boxSetHealth, #boxSetArmour, #boxSetHunger, #boxSetThirst, #boxSetOxygen {
+	background: rgba(110, 110, 110, 0.5);
+	z-index: 97;
+	position: relative;
+	height: 15.5px;
+}
+
+@media screen and (min-width: 2561px) {
+	#boxSetHealth, #boxSetArmour, #boxSetHunger, #boxSetThirst, #boxSetOxygen, .bar {
+		height: 25px;
+	}
+}
+
+.barIcon {
+	z-index: 99;
+	position: absolute;
+	height: 60%;
+	width: 7.5%;
+	bottom: 0.2em;
+}
+
+#dirBar {
+	position: absolute;
+	display: inline-block;
+	margin: 0 auto;
+	background: rgba(56, 56, 56, 0.4);
+	color: #f8f8ff;
+	border-radius: 9%/100%;
+	bottom: 1.4%;
+	width: fit-content;
+	padding-right: 2%;
+}
+
+#uicompass {
+	position: relative;
+	width: 1.5em;
+	left: 1%;
+	top: 0.15em;
+	rotate: 90deg;
+}
+
+#location {
+	position: relative;
+	left: 3%;
+	bottom: .3em;
+	color: white;
+	text-align: center;
+	font-size: 15px;
+	white-space: pre;
+}
+
+.hudCar {
+	display: none;
+	position: absolute;
+	bottom: 3.5%;
+	display: flex;
+}
+
+.progress {
+	-webkit-transition: 0.35s stroke-dashoffset;
+	transition: 0.35s stroke-dashoffset;
+	-webkit-transform: rotate(140deg);
+	transform: rotate(140deg);
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.progressplayer {
+	-webkit-transition: 0.35s stroke-dashoffset;
+	transition: 0.35s stroke-dashoffset;
+	-webkit-transform: rotate(270deg);
+	transform: rotate(270deg);
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.backgroundCircle {
+	-webkit-transform: rotate(-180deg);
+	transform: rotate(-180deg);
+	-webkit-transform-origin: 50% 50%;
+	transform-origin: 50% 50%;
+}
+
+.mph {
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 12px;
+}
+
+.fuel {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+	text-align: center;
+	background-repeat: no-repeat;
+	background-position: 50% 40%;
+	background-size: 45% 45%;
+	opacity: 1;
+}
+
+.counter {
+	height: 100%;
+	width: 100%;
+}
+
+.counter .counter2 {
+	position: relative;
+	height: 200%;
+	-webkit-transform: translateX(-50%);
+	transform: translateX(-50%);
+}
+
+.counter .counter2 div {
+	display: inline-block;
+	vertical-align: middle;
+	margin: 0 10px;
+}
+
+.counter .counter2 div svg {
+	opacity: 0.2;
+}
+
+.counter .counter2 .active svg {
+	opacity: 0.8;
+}
+
+.counter .counter2 .speedometer {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+}
+
+.counter .counter2 .speedometer svg {
+	opacity: 1;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	-webkit-transform: scale(2) translate(-25%, -25%);
+	transform: scale(2) translate(-25%, -25%);
+}
+
+.counter .counter2 .speedometer .text {
+	width: 100%;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	margin: 0;
+}
+
+.counter .counter2 .speedometer .text .speed {
+	color: white;
+	font-size: 27px;
+	display: block;
+}
+
+.addon {
+	display: flex;
+	position: absolute;
+	top: 45%;
+	left: 15%;
+}
+
+#container {
+	position: absolute;
+	display: none;
+	flex-direction: column;
+	left: 40%;
+	bottom: 5%;
+}
+
+.blink-image {
+	width: 35px;
+	height: 35px;
+	opacity: 0.8;
+	-webkit-animation: blink normal 1s infinite ease-in-out;
+	animation: blink normal 1s infinite ease-in-out;
+}
+
+@-webkit-keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+@keyframes blink {
+	0% {
+		opacity: 1;
+	}
+	50% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

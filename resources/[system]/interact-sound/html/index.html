@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>interact-sound</title>
+</head>
+
+<body>
+	<script src="nui://game/ui/jquery.js"></script>
+
+	<script>
+		window.addEventListener('message', function (event) {
+			if (event.data.transactionType == "playSound") {
+				var audio = new Audio(`nui://interact-sound/html/sounds/${event.data.transactionFile}.ogg`);
+				audio.volume = event.data.transactionVolume;
+				audio.play();
+			}
+		});
+	</script>
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+set mysql_connection_string "server=<MYSQL IP>;database=<MYSQL DATABASE>;userid=<MYSQL USER>;password=<MYSQL PASSWORD>"
+
+# Only change the IP if you're using a server with multiple network interfaces, otherwise change the port only.
+# endpoint_add_tcp "0.0.0.0:30120"
+# endpoint_add_udp "0.0.0.0:30120"
+
+set panel_access_token "<RANDOM STRING HERE BLAH BLAH BLAH>"
+sv_licenseKey "<key here>"
+
+sv_hostname "Dev server"
+
+sv_master1 ""
+
+sv_maxclients 5
+
+# you can enforce time freeze and weather freeze which can be annoying on dev enviroments, don't add this to a prod server
+setr time_hour 12
+setr time_minute 0
+setr time_frozen "true"
+
+setr weather_currentweather "EXTRASUNNY"
+setr weather_dynamic "false"

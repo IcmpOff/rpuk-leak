@@ -1,0 +1,17 @@
+html, body {
+	display: none;
+	margin: 0;
+	padding: 0;
+	height: 100%;
+	width: 100%;
+	overflow: hidden;
+}
+
+#main {
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	margin-left: 15%;
+	margin-top: 8%;
+	width: 70%;
+	height: 70%;
+}

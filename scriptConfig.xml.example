@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<Config>
+    <Method>http://127.0.0.1:30120/rpuk_panel/action</Method>
+    <APIKey></APIKey>
+</Config>

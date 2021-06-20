@@ -1,0 +1,337 @@
+[
+    {
+      "Name": "TAT_FM_008",
+      "updateGroup": "FACE",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_009",
+      "updateGroup": "ARM_LEFT_1",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_010",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_011",
+      "updateGroup": "CHEST_RIGHT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_012",
+      "updateGroup": "STOMACH_FULL",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_013",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_014",
+      "updateGroup": "LEG_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_015",
+      "updateGroup": "ARM_LEFT_2",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_016",
+      "updateGroup": "BACK_FULL_SHORT",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_017",
+      "updateGroup": "LEG_LEFT_CALF",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_018",
+      "updateGroup": "ARM_RIGHT_LOWER_SLEEVE",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_019",
+      "updateGroup": "CHEST_LEFT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_020",
+      "updateGroup": "CHEST_LEFT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_021",
+      "updateGroup": "CHEST_LEFT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_022",
+      "updateGroup": "BACK_2",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_023",
+      "updateGroup": "ARM_LEFT_UPPER_SLEEVE",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_024",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_025",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_026",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_027",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_204",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_205",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_209",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_206",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_219",
+      "updateGroup": "STOMACH_FULL",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_201",
+      "updateGroup": "ARM_LEFT_1",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_202",
+      "updateGroup": "ARM_LEFT_1",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_210",
+      "updateGroup": "LEG_RIGHT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_211",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_213",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_218",
+      "updateGroup": "CHEST_RIGHT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_214",
+      "updateGroup": "BACK_1",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_220",
+      "updateGroup": "STOMACH_FULL",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_215",
+      "updateGroup": "BACK_1",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_207",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_203",
+      "updateGroup": "ARM_LEFT_2",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_216",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_212",
+      "updateGroup": "LEG_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_208",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_217",
+      "updateGroup": "BACK_1",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_221",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_222",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_223",
+      "updateGroup": "LEG_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_224",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_225",
+      "updateGroup": "STOMACH_FULL",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_226",
+      "updateGroup": "CHEST_RIGHT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_227",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_228",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_229",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_230",
+      "updateGroup": "STOMACH_LEFT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_231",
+      "updateGroup": "BACK_1",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_232",
+      "updateGroup": "ARM_LEFT_2",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_233",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_234",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_235",
+      "updateGroup": "CHEST_RIGHT",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_236",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_237",
+      "updateGroup": "STOMACH_FULL",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_238",
+      "updateGroup": "LEG_LEFT",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_239",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_240",
+      "updateGroup": "LEG_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_241",
+      "updateGroup": "LEG_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_242",
+      "updateGroup": "ARM_LEFT_2",
+      "eFacing": "TATTOO_LEFT"
+    },
+    {
+      "Name": "TAT_FM_243",
+      "updateGroup": "LEG_RIGHT_LOWER_BACK",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_244",
+      "updateGroup": "LEG_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    },
+    {
+      "Name": "TAT_FM_245",
+      "updateGroup": "STOMACH_FULL",
+      "eFacing": "TATTOO_FRONT"
+    },
+    {
+      "Name": "TAT_FM_246",
+      "updateGroup": "BACK_FULL",
+      "eFacing": "TATTOO_BACK"
+    },
+    {
+      "Name": "TAT_FM_247",
+      "updateGroup": "ARM_RIGHT",
+      "eFacing": "TATTOO_RIGHT"
+    }
+]

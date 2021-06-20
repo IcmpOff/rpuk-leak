@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>rpuk_admin</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<div id="admin">
+		<div class="topbar">
+			<p>RPUK GTA RP GAME ADMIN</p><input id="streamerM" name="streamerM" type="checkbox" onclick="hideInfo()" />
+			<div id="close">&#10060;</div>
+		</div>
+
+		<div id="tabs">
+			<button id="select_users" class="tab selected">Users</button>
+			<button id="select_self" class="tab">Self</button>
+			<button id="select_server" class="tab">Server</button>
+		</div>
+
+		<div id="main">
+			<div id="users">
+				<div class="list"></div>
+				<div class="selected-style">
+					<div id="notexist">
+						<h1>Select a player</h1>
+					</div>
+					<div id="exist">
+						<div style="float:left;width:80%;">
+							<div id="quick">
+								<h3>Admin Options</h3>
+								<button class="quick" id="slay">Kill Player</button>
+								<button class="quick" id="freeze">Freeze Player</button>
+								<button class="quick" id="revive">Revive Player</button><br>
+
+								<button class="quick" id="bring">Bring Player</button>
+								<button class="quick" id="goto">Goto Player</button><br>
+
+								<div class="charinfo" style="padding-top:1%;padding-left:1%;">
+									<div class="column" style="background: rgba(255, 255, 255, 0.4);">
+										<h2>Player Information</h2>
+										<p id="session">Missing Data</p>
+										<p id="name">Missing Data</p>
+										<p id="steam">Missing Data</p>
+										<p id="group">Missing Data</p>
+									</div>
+									<div class="column" style="background: rgba(255, 255, 255, 0.2);">
+										<h2>Character Information</h2>
+										<p id="character">Missing Data</p>
+										<p id="charid">Missing Data</p>
+										<p id="job">Missing Data</p>
+										<p>&nbsp;</p>
+									</div>
+								</div>
+
+								<button class="quick" id="crash">Crash Client</button>
+								<button class="quick" id="kick">Kick Client</button>
+								<button class="quick panel">Recon Panel Link</button>
+
+							</div>
+						</div>
+						<div id="panel" style="float:right;width:20%;">
+							<h4>Variable Changes</h4>
+							<div class="group_set">
+								<label>Give Cash Compensation</label>
+								<input id="newmoney" type="text" placeholder="£">
+								<button id="setmoney">Cash Compensation</button>
+								<div class="column" style="width:98%;background: rgba(255, 150, 150, 0.4);">
+									<p id="cash">Missing Data</p>
+									<p id="bank">Missing Data</p>
+									<p id="dirty">Missing Data</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+			<div id="self">
+				<div class="list">
+					<div class="player">GTA RP Public Server 1</div>
+				</div>
+				<div id="selected">
+					<h3>Admin - Self Help / Actions</h3>
+					<h4>Admin Mode Options</h4>
+					<button class="quick" id="self_nametags">Enable Player Names</button>
+					<!--<button class="quick" id="self_nametags1s">Enable Player Names (1s)</button>-->
+					<h4>Spawn / Give Interactions</h4>
+					<button class="DisabledQuick" id="spawn_money" disabled>Spawn Money</button>
+					<button class="DisabledQuick" id="spawn_item" disabled>Spawn Item</button>
+					<button class="DisabledQuick" id="spawn_weapon" disabled>Spawn Weapon</button>
+					<button class="DisabledQuick" id="spawn_car" disabled>Spawn Car</button>
+					<h4>Vehicle Interactions</h4>
+					<button class="DisabledQuick" id="empty_fuel" disabled>Empty Fuel</button>
+					<button class="DisabledQuick" id="refill_fuel" disabled>Refill Fuel</button>
+					<button class="DisabledQuick" id="repair_car" disabled>Repair</button>
+				</div>
+			</div>
+			<div id="server">
+				<div class="list">
+					<div class="player">GTA RP Public Server 1</div>
+				</div>
+				<div class="selected-style">
+					<h3>Server - Mass Controls / Interactions</h3>
+					<h4>All Server Player Interactions</h4>
+					<button class="pbutton" id="kick_all">Kick All</button>
+					<button class="pbutton" id="bring_all">Teleport All</button>
+					<button class="pbutton" id="revive_all">Revive All</button>
+					<button class="pbutton" id="heal_all">Heal All</button>
+					<h4>All Server Vehicle Interactions</h4>
+					<button class="DisabledQuick" id="empty_fuel_all" disabled>Empty Fuel</button>
+					<button class="DisabledQuick" id="refill_fuel_all" disabled>Refill Fuel</button>
+					<button class="DisabledQuick" id="repair_car_all" disabled>Repair All</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="nui://game/ui/jquery.js"></script>
+
+	<script>
+		let streamerMode = false;
+		function hideInfo() {
+			if (document.getElementById('streamerM').checked) {
+				streamerMode = true;
+			} else {
+				streamerMode = false;
+			}
+		}
+
+		const copyToClipboard = str => {
+			const el = document.createElement('textarea');  // Create a <textarea> element
+			el.value = str;                                 // Set its value to the string that you want copied
+			el.setAttribute('readonly', '');                // Make it readonly to be tamper-proof
+			el.style.position = 'absolute';
+			el.style.left = '-9999px';                      // Move outside the screen to make it invisible
+			document.body.appendChild(el);                  // Append the <textarea> element to the HTML document
+			el.select();                                    // Select the <textarea> content
+			document.execCommand('copy');                   // Copy - only works as a result of a user action (e.g. click events)
+			document.body.removeChild(el);                  // Remove the <textarea> element
+		};
+
+		let selected = 0;
+		let charid = 0;
+		let playerTable
+		$(function () {
+			$(document).keyup(function (e) {
+				if (e.keyCode == 27) {
+					$("#admin").fadeOut();
+					$.post('https://rpuk_admin/close', JSON.stringify({}));
+				}
+			});
+
+			window.addEventListener('message', function (event) {
+				if (event.data.type == "open") {
+					$('#notexist').css('display', 'block');
+					$('#exist').css('display', 'none');
+					$("#admin").fadeIn();
+					$('input').val("");
+
+					$('.list').empty();
+					playerTable = event.data.players
+					for (let i in event.data.players) {
+						let player = event.data.players[i];
+						if (streamerMode === true){
+							$('.list').append('<div class="player" id="player_' + player.id + '" charid="' + player.charid + '"">' + player.id + '  |  ' + player.character + '</div>');
+						} else {
+							$('.list').append('<div class="player" id="player_' + player.id + '" charid="' + player.charid + '"">' + player.id + '  |  ' + player.name + '  |  ' + player.character + '</div>');
+						}
+					}
+
+					$(".player").click(function () {
+						let id = $(this).attr('id').replace('player_', '');
+						selected = parseInt(id);
+						charid = $(this).attr('charid')
+						selectedChar = parseInt(charid)
+
+
+						$('.player').removeClass('selected');
+						$(this).addClass('selected');
+
+						for (let i in playerTable) {
+							let player = playerTable[i];
+							if (player.id == selected) {
+								if (streamerMode === true) {
+									$('#exist').find('#name').text("Player Name: *****");
+									$('#exist').find('#steam').text("Steam: *****");
+									$('#exist').find('#cash').text("Current Cash: £*****");
+									$('#exist').find('#bank').text("Current Bank: £*****");
+									$('#exist').find('#dirty').text("Current Dirty: £*****");
+								} else {
+									$('#exist').find('#name').text("Player Name: " + player.name);
+									$('#exist').find('#steam').text("Steam: " + player.steam);
+									$('#exist').find('#cash').text("Current Cash: £" + player.cash.toLocaleString());
+									$('#exist').find('#bank').text("Current Bank: £" + player.bank.toLocaleString());
+									$('#exist').find('#dirty').text("Current Dirty: £" + player.dirty.toLocaleString());
+								}
+								$('#exist').find('#session').text("Session ID: " + player.id);
+								$('#exist').find('#group').text("Player Groups: " + player.group);
+								$('#exist').find('#character').text("Character Name: " + player.character);
+								$('#exist').find('#charid').text("RPUK Char ID: " + player.charid);
+								$('#exist').find('#job').text("Current Job: " + player.job.label + " (" + player.job.grade + ")");
+							}
+						}
+
+						$('#notexist').css('display', 'none');
+						$('#exist').css('display', 'block');
+					});
+				} else if (event.data.type == 'copy') {
+					var node = document.createElement('textarea');
+					var selection = document.getSelection();
+
+					node.textContent = event.data.text;
+					document.body.appendChild(node);
+
+					selection.removeAllRanges();
+					node.select();
+					document.execCommand('copy');
+
+					selection.removeAllRanges();
+					document.body.removeChild(node);
+				}
+			});
+
+			$("#close").click(() => {
+				$("#admin").fadeOut();
+				$.post('https://rpuk_admin/close', JSON.stringify({}));
+			});
+
+			$("#select_users").click(() => {
+				$('#server').css('display', 'none');
+				$('#users').css('display', 'block');
+				$('#self').css('display', 'none');
+				$(".tab").removeClass("selected");
+				$("#select_users").addClass("selected");
+				$("#select_users").blur();
+			});
+
+			$("#select_server").click(() => {
+				$('#users').css('display', 'none');
+				$('#server').css('display', 'block');
+				$('#self').css('display', 'none');
+				$(".tab").removeClass("selected");
+				$("#select_server").addClass("selected");
+				$("#select_server").blur();
+			});
+
+			$("#select_self").click(() => {
+				$('#users').css('display', 'none');
+				$('#self').css('display', 'block');
+				$('#server').css('display', 'none');
+				$(".tab").removeClass("selected");
+				$("#select_self").addClass("selected");
+				$("#select_self").blur();
+			});
+
+			$("#revive_all").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'revive_all' })); $(this).blur(); });
+			$("#heal_all").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'heal_all' })); $(this).blur(); });
+			$("#kick_all").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'kick_all' })); $(this).blur(); });
+			$("#bring_all").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'bring_all' })); $(this).blur(); });
+
+			//Self help stuff
+			$("#self_nametags").click(function () { $.post('https://rpuk_admin/selfOptions', JSON.stringify({ playerId: selected, type: 'self_nametags' })); $(this).blur(); });
+			$("#self_nametags1s").click(function () { $.post('https://rpuk_admin/selfOptions', JSON.stringify({ playerId: selected, type: 'self_nametags1s' })); $(this).blur(); });
+
+			$("#revive").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'revive' })); $(this).blur(); });
+			$("#slay").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'slay' })); $(this).blur(); });
+			$("#kick").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'kick' })); $(this).blur(); });
+			$("#freeze").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'freeze' })); $(this).blur(); });
+			$("#bring").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'bring' })); $(this).blur(); });
+			$("#goto").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'goto' })); $(this).blur(); });
+			$("#slap").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'slap' })); $(this).blur(); });
+			$("#crash").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'crash' })); $(this).blur(); });
+			$("#setmoney").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'addaccountmoney', arg3: $("#newmoney").val(), arg4: 'money' })); $(this).blur(); });
+			$("#setbank").click(function () { $.post('https://rpuk_admin/quick', JSON.stringify({ playerId: selected, type: 'addaccountmoney', arg3: $("#newbank").val(), arg4: 'bank' })); $(this).blur(); });
+			$(".panel").click(function () { copyToClipboard(`https://recon.roleplay.co.uk/fivem/prod/players/${selectedChar}`); $(this).blur(); });
+			$('button').click(function () { $(this).blur(); });
+		});
+	</script>
+</body>
+
+</html>

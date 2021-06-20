@@ -1,0 +1,115 @@
+* {
+	-webkit-user-select: none;
+}
+
+html {
+	overflow: hidden;
+}
+
+p {
+	margin: 0 !important;
+}
+
+.main-container {
+	display: none;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	top: 10%;
+	font-family: Arial;
+}
+
+.character-container {
+	width: 500px;
+	padding-top: 0.5%;
+	padding-bottom: 1%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.character-box {
+	border-radius: 5px;
+	border: 2px;
+	width: 500px;
+	color: #FFFFFF;
+	background: rgba(0, 0, 0, 0.6);
+	padding-top: 1%;
+	padding-bottom: 1%;
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 100px;
+}
+
+.character-box:hover {
+	transition: 200ms;
+}
+
+.character-info {
+	text-align: center!important;
+	display: grid;
+	padding-top: 3%;
+	padding-bottom: 3%;
+	grid-template-columns: 50% 50%;
+}
+
+.character-fullname {
+	width: 100%;
+	height: 100%;
+	background: rgba(0, 0, 0, 0.822);
+}
+
+.character-buttons {
+	display: none;
+	margin-top: 5%;
+}
+
+.btn {
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+}
+
+.btn-play {
+	background: #747bf0;
+	color: #FFFFFF;
+}
+
+.btn-play:hover {
+	background: #5c62bd;
+}
+
+.btn-delete {
+	background: #e74c3c;
+	color: #FFFFFF;
+}
+
+.btn-delete:hover {
+	background: #b50c0c;
+}
+
+.active-char {
+	border-color: #b50c0c;
+}
+
+.RPUK-Banner {
+	background: url('nui://rpuk_characters/html/image/background.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	top: 150px;
+	height: 150px;
+	width: 100%;
+	margin: auto;
+	position: relative;
+	margin-bottom: 15%;
+	border-bottom: solid;
+	border-color: #747bf0;
+	display: flex;
+}
+
+.RPUK-Text {
+	color: white;
+	margin: auto;
+	text-align: center;
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>rpuk_inventory</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css"
+		href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/ui.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css"
+		integrity="sha512-aOG0c6nPNzGk+5zjwyJaoRUgCdOrfSDhmMID2u4+OIslr0GjpLKo7Xm0Ao3xmpM4T8AmIouRkqwj1nrdVsLKEQ=="
+		crossorigin="anonymous" />
+	<link rel="stylesheet"
+		href="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.css">
+	<link href="css/jquery.contextMenu.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="ui">
+		<div class="inventory">
+			<!-- <img id="rpukLogo" src="img/logo.png" alt=""> !-->
+			<div id="playerInventory"></div>
+			<div id="otherInventory">
+				<div id="noSecondInventoryMessage"></div>
+			</div>
+			<div id="controls">
+				<div class="controls-div">
+					<input type="number" class="control" id="count" value="1">
+					<div class="control" id="use"><i class='fa fa-mouse-pointer'></i> Use</div>
+					<div class="control" id="give"><i class='fa fa-gift'></i> Give</div>
+					<div class="control" id="drop"><i class='fa fa-trash'></i> Throw</div>
+					<span class="info-div"></span>
+				</div>
+				<br>
+				<span class="info-div2"></span>
+			</div>
+		</div>
+
+		<div id="dialog">
+			<div id="nearPlayers"></div>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="nui://game/ui/jquery.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.contextMenu.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-contextmenu/2.7.1/jquery.ui.position.js"></script>
+	<script src="js/inventory.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+Male Tops
+45 - mp_m_freemode_01_male_freemode_independence^jbib_000_u.ydd - Texture Slots:2
+46 - mp_m_freemode_01_male_freemode_independence^jbib_001_u.ydd - Texture Slots:2
+48 - mp_m_freemode_01_male_freemode_pilot^jbib_000_u.ydd - Texture Slots:1
+51 - Festive - mp_m_freemode_01_male_xmas2^jbib_000_u.ydd - Texture Slots:3
+52 - Festive - mp_m_freemode_01_male_xmas2^jbib_001_u.ydd - Texture Slots:4
+54 - mp_m_freemode_01_male_heist^jbib_001_u.ydd - Texture Slots:1
+55 - mp_m_freemode_01_male_heist^jbib_002_u.ydd - Texture Slots:1
+91 - mp_m_freemode_01_male_apt01^jbib_000_u.ydd - Texture Slots:1
+116 - Festive - mp_m_freemode_01_mp_m_xmas_03^jbib_000_u.ydd - Texture Slots:3
+117 - Festive - mp_m_freemode_01_mp_m_xmas_03^jbib_001_u.ydd - Texture Slots:16
+129 - mp_m_freemode_01_mp_m_executive_01^jbib_diff_000_a_uni.ytd - Texture Slots:1
+130 - mp_m_freemode_01_mp_m_executive_01^jbib_diff_001_a_uni.ytd - Texture Slots:1
+149 - mp_m_freemode_01_mp_m_stunt_01^jbib_002_u.ydd - Texture Slots:10
+155 - mp_m_freemode_01_mp_m_stunt_01^jbib_008_u.ydd - Texture Slots:4
+194 - Festive - mp_m_freemode_01_mp_m_importexport_01^jbib_008_u.ydd - Texture Slots:3
+195 - Festive - mp_m_freemode_01_mp_m_importexport_01^jbib_009_u.ydd - Texture Slots:3
+196 - Festive - mp_m_freemode_01_mp_m_importexport_01^jbib_010_u.ydd - Texture Slots:16
+197 - Festive - mp_m_freemode_01_mp_m_importexport_01^jbib_011_u.ydd - Texture Slots:16
+198 - Festive - mp_m_freemode_01_mp_m_importexport_01^jbib_012_u.ydd - Texture Slots:8 - G6
+199 - Festive - mp_m_freemode_01_mp_m_importexport_01^jbib_013_u.ydd - Texture Slots:8 - G6
+201 - mp_m_freemode_01_mp_m_importexport_01^jbib_015_u.ydd - Texture Slots:3
+228 - mp_m_freemode_01_mp_m_airraces_01^jbib_001_u.ydd - Texture Slots:20
+231 - mp_m_freemode_01_mp_m_airraces_01^jbib_004_u.ydd - Texture Slots:1
+245 - Festive - mp_m_freemode_01_mp_m_christmas2017^jbib_004_u.ydd - Texture Slots:10
+246 - mp_m_freemode_01_mp_m_christmas2017^jbib_005_u.ydd - Texture Slots:12
+250 - mp_m_freemode_01_mp_m_christmas2017^jbib_009_u.ydd - Texture Slots:2
+274 - mp_m_freemode_01_mp_m_christmas2018^jbib_002_u.ydd - Texture Slots:20
+275 - mp_m_freemode_01_mp_m_christmas2018^jbib_003_u.ydd - Texture Slots:16
+276 - mp_m_freemode_01_mp_m_christmas2018^jbib_004_u.ydd - Texture Slots:12
+277 - mp_m_freemode_01_mp_m_christmas2018^jbib_005_u.ydd - Texture Slots:12
+278 - mp_m_freemode_01_mp_m_christmas2018^jbib_006_u.ydd - Texture Slots:18
+283 - mp_m_freemode_01_mp_m_christmas2018^jbib_011_u.ydd - Texture Slots:12
+284 - mp_m_freemode_01_mp_m_christmas2018^jbib_012_u.ydd - Texture Slots:1
+285 - mp_m_freemode_01_mp_m_christmas2018^jbib_013_u.ydd - Texture Slots:1
+286 - mp_m_freemode_01_mp_m_christmas2018^jbib_014_u.ydd - Texture Slots:1
+287 - mp_m_freemode_01_mp_m_christmas2018^jbib_015_u.ydd - Texture Slots:14
+289 - mp_m_freemode_01_mp_m_christmas2018^jbib_017_u.ydd - Texture Slots:16
+291 - mp_m_freemode_01_mp_m_vinewood^jbib_001_u.ydd - Texture Slots:1
+320 - mp_m_freemode_01_mp_m_heist3^jbib_006_u.ydd - Texture Slots:1
+324 - mp_m_freemode_01_mp_m_heist3^jbib_010_u.ydd - Texture Slots:15
+326 - Festive - mp_m_freemode_01_mp_m_heist3^jbib_012_u.ydd - Texture Slots:1
+333 - mp_m_freemode_01_mp_m_sum^jbib_001_u.ydd - Texture Slots:1
+female Tops
+41
+44
+47
+48
+108
+196
+197
+198
+199
+200 - Festive - mp_f_freemode_01_mp_f_importexport_01^jbib_012_u.ydd - Texture Slots:8 - G6
+201 - Festive - mp_f_freemode_01_mp_f_importexport_01^jbib_013_u.ydd - Texture Slots:8 - G6
+203
+238
+241
+254
+258 - mp_f_freemode_01_mp_f_christmas2017^jbib_009_u.ydd
+297
+288
+289
+290
+291
+296
+297
+298
+299
+300
+302
+304
+331
+348

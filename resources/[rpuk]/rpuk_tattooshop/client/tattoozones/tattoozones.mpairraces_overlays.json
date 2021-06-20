@@ -1,0 +1,42 @@
+[
+	{
+		"Name": "TAT_AR_000",
+		"eFacing": "TATTOO_CHEST",
+		"updateGroup": "CHEST_LEFT"
+	},
+	{
+		"Name": "TAT_AR_001",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL_SHORT"
+	},
+	{
+		"Name": "TAT_AR_002",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_UPPER"
+	},
+	{
+		"Name": "TAT_AR_003",
+		"eFacing": "TATTOO_LEFT",
+		"updateGroup": "ARM_LEFT_FULL_SLEEVE"
+	},
+	{
+		"Name": "TAT_AR_004",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL"
+	},
+	{
+		"Name": "TAT_AR_005",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL_SHORT"
+	},
+	{
+		"Name": "TAT_AR_006",
+		"eFacing": "TATTOO_STOMACH",
+		"updateGroup": "STOMACH_FULL"
+	},
+	{
+		"Name": "TAT_AR_007",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL_SHORT"
+	}
+]

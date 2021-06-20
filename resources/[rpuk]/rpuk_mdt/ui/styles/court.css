@@ -1,0 +1,263 @@
+#courtTitle {
+	position: fixed;
+	left: 17%;
+	top: 5.5%;
+	color: #063c7a;
+}
+
+#courtWelcome {
+	font-family: 'Georgia';
+	font-style: italic;
+	font-size: 20pt;
+	text-align: center;
+}
+
+.content-court {
+	position: absolute;
+	border-radius: 5px;
+	background-color: #424242;
+	width: 75%;
+	height: 80%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.content-court h2 {
+	font-family: "Lato";
+	user-select: none;
+	color: #e7ae66;
+	margin: 1px 1px 1px 1px;
+}
+
+.content-court h3 {
+	font-family: "Lato";
+	user-select: none;
+	color: #e7ae66;
+	margin: 1px 1px 1px 1px;
+}
+
+.content-court h4 {
+	font-family: "Lato";
+	font-weight: bolder;
+	font-size: 14px;
+	user-select: none;
+	color: #e7ae66;
+	margin: 1px 1px 1px 1px;
+}
+
+.content-court li {
+	font-family: "Lato";
+	font-weight: bolder;
+	color: white;
+	float: left;
+	padding-left: 16px;
+	padding-right: 16px;
+	border-right: 2px solid #e7ae66;
+}
+
+.content-court li:last-child {
+	border-right: none;
+}
+
+.content-court button {
+	background-color: #e7ae66;
+	color: #424242;
+	font-family: "Lato";
+	font-weight: bolder;
+	border: 4px solid #e7ae66;
+	font-size: 12pt;
+	text-align: center;
+	padding: 4px 3px;
+}
+
+.content-court input {
+	background-color: #424242;
+	font-family: "Lato";
+	border: 2px solid #e7ae66;
+	color: #e7ae66;
+	font-size: 12pt;
+	padding: 7px 15px 5px 15px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-overflow: ellipsis;
+	text-align: left;
+}
+
+.content-court textarea {
+	background-color: #424242;
+	white-space: pre-line;
+	white-space: pre-wrap;
+	font-family: "Lato";
+	font-weight: bolder;
+	font-size: 14px;
+	border-width: 0px;
+	border: none;
+	color: #e7ae66;
+	font-size: 12pt;
+	padding: 0px 0px 0px 0px;
+	width: 550px;
+	margin-right: 10px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	text-overflow: ellipsis;
+	text-align: left;
+	outline: none;
+}
+
+.content-court th {
+	font-family: "Lato";
+	font-weight: bolder;
+	font-size: 14px;
+	color: white;
+	padding: 5px 10px;
+	text-align: center;
+	border-bottom: 3px solid #e7ae66;
+}
+
+.content-court td {
+	font-family: "Lato";
+	font-size: 14px;
+	color: #e7ae66;
+	padding: 10px;
+	text-align: center;
+	border-top: 1px solid #e7ae66;
+}
+
+.content-court table {
+	border-collapse: collapse;
+	column-gap: 3px solid #e7ae66;
+}
+
+.content-court table td+td {
+	border-left: 2px solid #e7ae66;
+}
+
+.content-court table th+th {
+	border-left: 2px solid #e7ae66;
+}
+
+.content-court tr:not(:first-child):hover>td {
+	background-color: #e7be8b;
+	color: #424242;
+}
+
+.content-court button:hover {
+	background-color: #e7be8b;
+	border-color: #e7be8b;
+}
+
+.content-court ::-webkit-scrollbar-thumb {
+	background: #e7ae66;
+	border-radius: 5px;
+}
+
+.badge-court {
+	position: fixed;
+	display: inline-block;
+	left: 3%;
+	top: 1.5%;
+	max-width: 160px;
+	height: auto;
+	background-color: #424242;
+}
+
+.mugshot-court {
+	display: inline-block;
+	max-width: 215px;
+	height: auto;
+	border: 2px solid #e7ae66;
+	user-select: none;
+}
+
+.notification-court {
+	display: none;
+	z-index: 1;
+	position: fixed;
+	top: 24%;
+	left: 0%;
+	max-width: 25%;
+	padding: 15px;
+	background-color: #00152c;
+	border-bottom: 4px solid #e7ae66;
+}
+
+.report-input-court {
+	font-family: "Lato";
+	border-width: 0px;
+	border: none;
+	color: #e7ae66;
+	font-size: 12pt;
+	padding: 0px 0px 0px 0px;
+	width: 550px;
+	margin-right: 10px;
+	text-overflow: ellipsis;
+	text-align: left;
+	font-weight: bolder;
+}
+
+.line-court {
+	position: fixed;
+	width: 100%;
+	height: 1.5%;
+	background-color: #e7ae66;
+}
+
+.modal-content-court {
+	position: relative;
+	background-color: #424242;
+	margin: auto;
+	padding: 0;
+	margin: 0 auto;
+	border: 2px solid #e7ae66;
+	border-radius: 2px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+
+.close-court {
+	color: #e7ae66;
+	float: right;
+	font-size: 1.4em;
+}
+
+.close-court:hover, .close-court:focus {
+	color: #e7ae66;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.clickable-court {
+	text-decoration: underline;
+	text-decoration-color: #e7ae66;
+}
+
+.clickable-court:hover, .clickable2:hover {
+	color: #e7ae66;
+}
+
+.important-court h4 {
+	text-decoration: underline;
+	text-decoration-color: #e7ae66;
+}
+
+.img-block-court {
+	padding: 5px;
+	color: #424242;
+	background-color: #e7ae66;
+	border: 2px solid rgb(254, 190, 40);
+	position: absolute;
+	font-family: "Lato";
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+.textarea-court {
+	font-size: 14px;
+	border: 2px solid #e7ae66;
+	padding: 7px 15px 5px 15px;
+}

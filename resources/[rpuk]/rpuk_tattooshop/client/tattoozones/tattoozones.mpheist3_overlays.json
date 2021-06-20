@@ -1,0 +1,227 @@
+[
+	{
+		"Name": "TAT_H3_000",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_001",
+		"eFacing": "TATTOO_FRONT_LEFT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_002",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "NECK_FRONT"
+	},
+	{
+		"Name": "TAT_H3_003",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_004",
+		"eFacing": "TATTOO_FRONT_RIGHT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_005",
+		"eFacing": "TATTOO_FRONT_LEFT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_006",
+		"eFacing": "TATTOO_FRONT_LEFT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_007",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_008",
+		"eFacing": "TATTOO_FRONT_LEFT",
+		"updateGroup": "NECK_LEFT_FULL"
+	},
+	{
+		"Name": "TAT_H3_009",
+		"eFacing": "TATTOO_FRONT_RIGHT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_010",
+		"eFacing": "TATTOO_FRONT_RIGHT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_011",
+		"eFacing": "TATTOO_FRONT_RIGHT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_012",
+		"eFacing": "TATTOO_FRONT_RIGHT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_013",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_014",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "NECK_FRONT"
+	},
+	{
+		"Name": "TAT_H3_015",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_016",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_017",
+		"eFacing": "TATTOO_FRONT_RIGHT",
+		"updateGroup": "NECK_RIGHT_FULL"
+	},
+	{
+		"Name": "TAT_H3_018",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_019",
+		"eFacing": "TATTOO_FRONT_LEFT",
+		"updateGroup": "NECK_LEFT_BACK"
+	},
+	{
+		"Name": "TAT_H3_020",
+		"eFacing": "TATTOO_FRONT_LEFT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_021",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_022",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_023",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL"
+	},
+	{
+		"Name": "TAT_H3_024",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL_SHORT"
+	},
+	{
+		"Name": "TAT_H3_025",
+		"eFacing": "TATTOO_CHEST",
+		"updateGroup": "CHEST_FULL"
+	},
+	{
+		"Name": "TAT_H3_026",
+		"eFacing": "TATTOO_CHEST",
+		"updateGroup": "CHEST_FULL"
+	},
+	{
+		"Name": "TAT_H3_027",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL"
+	},
+	{
+		"Name": "TAT_H3_028",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL_SHORT"
+	},
+	{
+		"Name": "TAT_H3_029",
+		"eFacing": "TATTOO_STOMACH",
+		"updateGroup": "STOMACH_FULL"
+	},
+	{
+		"Name": "TAT_H3_030",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL_SHORT"
+	},
+	{
+		"Name": "TAT_H3_031",
+		"eFacing": "TATTOO_RIGHT",
+		"updateGroup": "LEG_RIGHT_FULL_SLEEVE"
+	},
+	{
+		"Name": "TAT_H3_032",
+		"eFacing": "TATTOO_LEFT",
+		"updateGroup": "LEG_LEFT_FULL_SLEEVE"
+	},
+	{
+		"Name": "TAT_H3_033",
+		"eFacing": "TATTOO_CHEST",
+		"updateGroup": "CHEST_RIGHT"
+	},
+	{
+		"Name": "TAT_H3_034",
+		"eFacing": "TATTOO_RIGHT",
+		"updateGroup": "HAND_RIGHT"
+	},
+	{
+		"Name": "TAT_H3_035",
+		"eFacing": "TATTOO_CHEST",
+		"updateGroup": "CHEST_LEFT"
+	},
+	{
+		"Name": "TAT_H3_036",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL_SHORT"
+	},
+	{
+		"Name": "TAT_H3_037",
+		"eFacing": "TATTOO_STOMACH",
+		"updateGroup": "STOMACH_FULL"
+	},
+	{
+		"Name": "TAT_H3_038",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL"
+	},
+	{
+		"Name": "TAT_H3_039",
+		"eFacing": "TATTOO_BACK",
+		"updateGroup": "BACK_FULL_SHORT"
+	},
+	{
+		"Name": "TAT_H3_040",
+		"eFacing": "TATTOO_LEFT",
+		"updateGroup": "ARM_LEFT_UPPER_SLEEVE"
+	},
+	{
+		"Name": "TAT_H3_041",
+		"eFacing": "TATTOO_LEFT",
+		"updateGroup": "ARM_LEFT_FULL_SLEEVE"
+	},
+	{
+		"Name": "TAT_H3_042",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_043",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	},
+	{
+		"Name": "TAT_H3_044",
+		"eFacing": "TATTOO_FRONT",
+		"updateGroup": "FACE"
+	}
+]

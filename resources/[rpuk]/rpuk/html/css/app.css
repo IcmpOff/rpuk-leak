@@ -1,0 +1,13 @@
+html {
+	overflow: hidden;
+	font-family: Arial;
+}
+
+#inventory_notifications {
+	position: absolute;
+	right: 5%;
+	bottom: 5%;
+	font-size: 2em;
+	font-weight: bold;
+	color: white;
+}
